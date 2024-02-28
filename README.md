@@ -17,9 +17,9 @@ For this project, I first found the “mole2_dataset.csv” file. The data is ab
 **a.** Use train() function to build the machine learning model. Choose naïve bayes classification algorithm.<br>
 **b.** Make predictions for test data using the predict() function.<br>
 **c.** Construct the confusion matrix to compare the predictions (data) vs the actuals (reference). <br>
-**9.** Compare and make more and more comments about the final results you find in steps “6-8”.<br>
 
-## The Project Summary
+
+## The Project Result
 Random Forest, KNN and Naive Bayes also seem to have the ability to correctly recognize and distinguish negative classes in all 3 models, as their specificity values are high. Positive prediction values are high in Random Forest, which shows us that the model is capable of correctly recognizing and distinguishing positive classes. In addition to Random Forest, KNN and Naive Bayes have a weaker ability to recognize and distinguish positive classes because their positive prediction values are low.
 
 The inter-class sensitivity values of the model I trained with KNN are low. While the sensitivity values between classes of the model I trained with random forest are more balanced and higher, the model we trained with naive Bayes is similar to random forest, but the sensitivity values between classes are different.
