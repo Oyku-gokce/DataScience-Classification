@@ -22,7 +22,7 @@ For this project, I first found the “mole2_dataset.csv” file. The data is ab
 ## The Project Summary
 Random Forest, KNN and Naive Bayes also seem to have the ability to correctly recognize and distinguish negative classes in all 3 models, as their specificity values are high. Positive prediction values are high in Random Forest, which shows us that the model is capable of correctly recognizing and distinguishing positive classes. In addition to Random Forest, KNN and Naive Bayes have a weaker ability to recognize and distinguish positive classes because their positive prediction values are low.
 
-The inter-class sensitivity values of the model we trained with KNN are low. While the sensitivity values between classes of the model we trained with random forest are more balanced and higher, the model we trained with naive Bayes is similar to random forest, but the sensitivity values between classes are different.
+The inter-class sensitivity values of the model I trained with KNN are low. While the sensitivity values between classes of the model I trained with random forest are more balanced and higher, the model we trained with naive Bayes is similar to random forest, but the sensitivity values between classes are different.
 
 Random forest has higher accuracy and kappa values than the other two models. This model seems to better balance cross-class sensitivity.
 
@@ -30,4 +30,4 @@ KNN seems to be a model with low inter-class precision. The success of this mode
 
 Naive Bayes has an average performance compared to the other two models in terms of accuracy and kappa values. However, sensitivity values between classes appear to be more unstable than other models. Inter-class sensitivity values show us the rate of correct classification of each class. For example, we observe that since the inter-class sensitivity of the model we trained with knn is low, the success of correctly predicting the class in this model is poor.
 
-According to the data we obtained, we can say that the Random Forest model has a better performance in general.
+According to the data I obtained, I can say that the Random Forest model has a better performance in general.
